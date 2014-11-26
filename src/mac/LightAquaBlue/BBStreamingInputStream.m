@@ -37,18 +37,18 @@
     return self;
 }
 
-- (int)read:(uint8_t *)buffer maxLength:(unsigned int)maxLength
+- (NSInteger)read:(uint8_t *)buffer maxLength:(NSUInteger)len
 {
-    NSData *data = [mDelegate readDataWithMaxLength:maxLength];
+    NSData *data = [mDelegate readDataWithMaxLength:len];
     if (!data) 
         return -1;
 
-    int copyLength = [data length] < maxLength ? [data length] : maxLength;
+    int copyLength = [data length] < len ? [data length] : len;
     [data getBytes:buffer length:copyLength];
     return copyLength;
 }
 
-- (BOOL)getBuffer:(uint8_t **)buffer length:(unsigned int *)len
+- (BOOL)getBuffer:(uint8_t **)buffer length:(NSUInteger *)len
 {
     // we cannot access buffer data without calling read:maxLength:
     return NO;

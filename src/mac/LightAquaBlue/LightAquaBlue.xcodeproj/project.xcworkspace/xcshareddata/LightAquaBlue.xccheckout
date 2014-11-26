@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A1189070-E1F0-437B-98EC-BB525C12A870</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LightAquaBlue</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D5E9963BB57595B0E20D1A7E22EEDBAB153A565</key>
+		<string>https://github.com/chope-yoonhg84/lightblue-0.4.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/mac/LightAquaBlue/LightAquaBlue.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D5E9963BB57595B0E20D1A7E22EEDBAB153A565</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chope-yoonhg84/lightblue-0.4.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D5E9963BB57595B0E20D1A7E22EEDBAB153A565</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D5E9963BB57595B0E20D1A7E22EEDBAB153A565</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lightblue</string>
+		</dict>
+	</array>
+</dict>
+</plist>
